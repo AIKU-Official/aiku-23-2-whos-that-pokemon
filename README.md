@@ -9,15 +9,28 @@
 * 포켓몬의 실루엣과 그리고 싶은 포켓몬 정보만으로 알맞게 그림을 그려주는 생성모델을 만드는 것이 프로젝트의 목표입니다.
 
 ## 방법론
-![img1](./images/image2.png)
+![img2](./images/image2.png)
 * UNet 기반의 생성기를 사용하였습니다.
 * Middle Block을 통과한 latent에 포켓몬 정보 noise를 더해주어 학습될 수 있도록 유도하였습니다.
 
 ## 환경 설정
+* python >= 3.10.0  
+* pytorch >= 2.1.0+cu121  
+* einops >= 0.7.0
 
 ## 사용 방법
 
 ## 예시 결과
+* 학습 진행에 따른 test 실루엣에 대한 생성 결과  
+![gif0](./images/output_poke.gif)
+
+* 최종 모델에 test (unseen) mask를 줬을 때 생성한 피카츄
+![img3](./images/image3.png)
+
+* 최종 모델에 train mask를 줬을 때 생성한 피카츄
+* mask-fake-real 순서
+* 데이터 수가 적어 굉장한 오버피팅이 발생한 듯한데 무언가 잘못된 듯 함
+![img3](./images/image5.png)
 
 ## 팀원
 
