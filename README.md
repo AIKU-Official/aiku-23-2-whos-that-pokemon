@@ -39,4 +39,4 @@
 - [황수인](https://github.com/suin00h): 팀장, 모델 구조 제안 및 구성, 훈련
 - [박승현](홍길동의 github link): (수행한 역할을 나열)
 - [박준하](홍길동의 github link): (수행한 역할을 나열)
-- [유예빈](홍길동의 github link): (수행한 역할을 나열)
+- [유예빈](https://github.com/yebiniii): 데이터셋 수집
