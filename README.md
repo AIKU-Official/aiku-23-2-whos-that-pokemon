@@ -37,6 +37,6 @@
 (프로젝트에 참여한 팀원의 이름과 깃헙 프로필 링크, 역할을 작성해주세요)
 
 - [황수인](https://github.com/suin00h): 팀장, 모델 구조 제안 및 구성, 훈련
-- [박승현](홍길동의 github link): (수행한 역할을 나열)
-- [박준하](홍길동의 github link): (수행한 역할을 나열)
+- [박승현](https://github.com): 모델 구조 제안 및 구성, 평가지표 연구
+- [박준하](https://github.com/joon999): 데이터셋 수집, 데이터로더 코드 작성
 - [유예빈](https://github.com/yebiniii): 데이터셋 수집
